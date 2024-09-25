@@ -6,29 +6,28 @@
 ## Postman endpoints test
 
 ### GET /api/transactions/:Test if you can retrieve a list of transactions.
-expected outcome : 200 OK
+- expected outcome : 200 OK
 
 ### POST /api/transactions/: Test if you can create a transaction.
  - expected outcome : 201 created
 
 ### GET /api/transactions/<transaction_id>/: Test if you can retrieve a specific transaction by its ID.
-expected outcome : 200 OK
+- expected outcome : 200 OK
 
 ### DELETE /api/transactions/<transaction_id>/: Test if you can delete a transaction.
-expected outcome : 204 No content
+- expected outcome : 204 No content
 
 ### PUT /api/transactions/<transaction_id>/: Test if you can update a transaction.
-expected outcome : 200 OK
+- expected outcome : 200 OK
 
 ### GET /api/users/: Test if you can retrieve the list of users.
-expected outcomes : 200 OK
+- expected outcomes : 200 OK
 
 ### GET /api/users/<user_id>/transactions/: Test if you can retrieve transactions by a specific user.
-expected outcome : 200 OK
+- expected outcome : 200 OK
 
-### GET /api/reports/: 
-Test if you can generate a financial report for a given user, month, and year.
-expected outcome : 200 OK
+### GET /api/reports/: Test if you can generate a financial report for a given user, month, and year.
+- expected outcome : 200 OK
 
 
 ## Approach
